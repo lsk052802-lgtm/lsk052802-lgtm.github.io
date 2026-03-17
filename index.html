@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>이상경 홈</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>내 웹페이지</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.gallery img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.contact {
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+</style>
+
 </head>
 
 <body>
-   <p> AI 소프트웨어과에 오신 것을 환영합니다 </p>
+
+<header>
+<h1>나의 컴퓨터 보안 웹페이지</h1>
+</header>
+
+<section>
+<h2>컴퓨터 보안 소개</h2>
+<p>
+컴퓨터 보안은 해킹, 바이러스, 정보 유출로부터
+컴퓨터 시스템과 데이터를 보호하는 기술입니다.
+네트워크 보안, 암호화, 인증 기술 등이 포함됩니다.
+</p>
+</section>
+
+<section>
+<h2>내 수업정보</h2>
+<ul>
+<li>과목: 컴퓨터 보안</li>
+<li>교수: 홍길동</li>
+<li>강의실: 301호</li>
+<li>강의시간: 월요일 10:00</li>
+</ul>
+</section>
+
+<section>
+<h2>내 갤러리</h2>
+<div class="gallery">
+<img src="image1.jpg" alt="사진1">
+<img src="image2.jpg" alt="사진2">
+<img src="image3.jpg" alt="사진3">
+</div>
+</section>
+
+<section>
+<h2>내 연락처</h2>
+<div class="contact">
+<p>이메일: example@email.com</p>
+<p>전화번호: 010-1234-5678</p>
+<p>GitHub: github.com/example</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 My Web Page</p>
+</footer>
+
 </body>
 </html>
